@@ -25,7 +25,11 @@ let IP10 = 'www.visa.com.tw'
 let IP11 = 'www.visaeurope.ch'
 let IP12 = 'www.visa.com.br'
 let IP13 = 'www.visasoutheasteurope.com'
-
+let IP14 = '198.41.209.27'
+let IP15 = '198.41.208.44:443'
+let IP16 = '198.41.212.103'
+let IP17 = '162.159.10.109'
+let IP18 = '162.159.36.103'
 // http_port
 let PT1 = '80'
 let PT2 = '8080'
@@ -42,6 +46,11 @@ let PT10 = '2053'
 let PT11 = '2083'
 let PT12 = '2087'
 let PT13 = '2096'
+let PT14 = '443'
+let PT15 = '443'
+let PT16 = '443'
+let PT17 = '443'
+let PT18 = '443'
 
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
 let proxyPort = proxyIP.includes(':') ? proxyIP.split(':')[1] : '443';
